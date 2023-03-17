@@ -6,7 +6,7 @@ ED: a= 60, b= 40, cosY= 60, c;
 FIM*/
 
 
-function calculateWorkersDistance(): number {
+export function calculateWorkersDistance(): number {
     let cableA = 60;
     let cableB = 40;
     let cosY = Math.cos((Math.PI / 180) * 60);

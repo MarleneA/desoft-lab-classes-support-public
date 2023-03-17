@@ -6,9 +6,7 @@ ED: celsius, fahrenheit real
 	Escrever (A temperatura em Farenheit é “, fahrenheit)
 FIM*/
 
-function convertTofahrenheit(celsius: number): (number){
+export function convertTofahrenheit(celsius: number): (number){
     let fahrenheit = 32 + (9/5) * celsius;
     return (fahrenheit);
-}
-
-console.log("The temperature in Farenheit is ", convertTofahrenheit(25));
+};

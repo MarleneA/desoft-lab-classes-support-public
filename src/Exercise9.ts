@@ -9,15 +9,15 @@ Escrever (“A distância percorrida pelo Zé é   km”, distancia_z_km)
 
 FIM*/
 
-function calculateDistanceOfRunner(): number{
+export function calculateDistanceOfRunner(): number {
     let distanceManel = 42195;
-    let timeManel= 14530;
+    let timeManel = 14530;
     let timeZe = 3900;
-    let distanceMetersZe = ((distanceManel * timeZe) / timeManel) / 1000;
-    
-    return (distanceMetersZe);
+    let distancekmsZe = ((distanceManel * timeZe) / timeManel) / 1000;
+
+    return (distancekmsZe);
 }
 
-console.log("Zé runned " + calculateDistanceOfRunner().toFixed(2) + "km");
+console.log("Zé runned " + calculateDistanceOfRunner() + "km");
 
 

@@ -7,9 +7,9 @@ Escrever (“A altura do edifício é “, H)
 
 FIM*/
 
-function calculateBuildingHeightWithShadows(buildingShadow: number, personheight: number, personShadow: number): number{
-    let buildingHeight = buildingShadow / personShadow * personheight; 
-    return(buildingHeight);
+export function calculateBuildingHeightWithShadows(buildingShadow: number, personheight: number, personShadow: number): number {
+    let buildingHeight = buildingShadow / personShadow * personheight;
+    return (buildingHeight);
 }
 
 console.log("The Building height is " + calculateBuildingHeightWithShadows(40, 2, 4));
