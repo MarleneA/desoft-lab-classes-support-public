@@ -1,5 +1,5 @@
 export function daysGreeting(seconds: number): string {
-    if (seconds == 0){
+    if (seconds == 0) {
         throw new RangeError('Choose a valid seconds range');
     }
     if (seconds > 21600 && seconds < 43201) {
@@ -11,5 +11,4 @@ export function daysGreeting(seconds: number): string {
     else {
         return ("Good Night");
     }
-    
-}
+};

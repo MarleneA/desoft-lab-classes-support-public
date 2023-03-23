@@ -7,11 +7,9 @@ Escrever (“A distância percorrida pela pedra é  “, d)
 
 FIM*/
 
-export function calculateBuildingHeight(timeSeconds: number): number{
-    let distance = 0 * timeSeconds + 9.8 * Math.pow (timeSeconds, 2) / 2;
+export function calculateBuildingHeight(timeSeconds: number): number {
+    let distance = 0 * timeSeconds + 9.8 * Math.pow(timeSeconds, 2) / 2;
 
-    return(distance);
+    return (distance);
 
-}
-
-console.log("The height of the building is " + calculateBuildingHeight(2));
+};

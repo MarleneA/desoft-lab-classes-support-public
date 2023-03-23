@@ -13,13 +13,13 @@ RETORNAR digito1*/
 export function divisionOperator(num: number): number {
     let digite1: number, digite2: number, digite3: number;
 
+
     if (num < 100 || num > 999) {
-        console.log("Number don't have 3 digites");
         digite1 = -1;
     } else {
-        digite3 = num%10;
-        digite2 = Math.floor(num/10)%10;
-        digite1 = Math.floor(num/100)%10;
+        //digite3 = num % 10;
+        //digite2 = Math.floor(num / 10) % 10;
+        digite1 = Math.floor(num / 100) % 10;
     }
-    return (digite1);
-}
+    return digite1;
+};

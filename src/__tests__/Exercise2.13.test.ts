@@ -1,7 +1,7 @@
 import { determineClassPerformance } from "../Exercise2.13";
 
-describe('Testing ', () => {
-    test('Given ', () => {
+describe('Testing the performance of a class ', () => {
+    test('Given the value -5 the expected result should be the message Invalid value', () => {
 
         //Arrange
         let approved: number = -5;
@@ -14,29 +14,93 @@ describe('Testing ', () => {
         expect(functionResult).toBe(expectededResult);
     });
 
-    test('Given numbers 5 and 1 should return x is a multiple of y', () => {
+    test('Given the value 0.1 the expected result should be the message Bad Class', () => {
 
         //Arrange
-        let x: number = 5;
-        let y: number = 1;
-        let expectededResult: string = "x is a multiple of y";
+        let approved: number = 0.1;
+
+        let expectededResult: string = "Bad Class";
 
         //Act
-        let functionResult = findNumberMultiples(x, y);
+        let functionResult = determineClassPerformance(approved);
 
         //Assert
         expect(functionResult).toBe(expectededResult);
     });
 
-    test('Given numbers 73 and 7 should return x is neither a multiple nor a divisor of y', () => {
+    test('Given the value 0.2 the expected result should be the message Weak Class', () => {
 
         //Arrange
-        let x: number = 73;
-        let y: number = 7;
-        let expectededResult: string = "x is neither a multiple nor a divisor of y";
+        let approved: number = 0.2;
+        let expectededResult: string = "Weak Class";
 
         //Act
-        let functionResult = findNumberMultiples(x, y);
+        let functionResult = determineClassPerformance(approved);
+
+        //Assert
+        expect(functionResult).toBe(expectededResult);
+    });
+
+    test('Given the value 0.5 the expected result should be the message Reasonable Class', () => {
+
+        //Arrange
+        let approved: number = 0.5;
+        let expectededResult: string = "Reasonable Class";
+
+        //Act
+        let functionResult = determineClassPerformance(approved);
+
+        //Assert
+        expect(functionResult).toBe(expectededResult);
+    });
+
+    test('Given the value 0.7 the expected result should be the message Great Class', () => {
+
+        //Arrange
+        let approved: number = 0.7;
+        let expectededResult: string = "Great Class";
+
+        //Act
+        let functionResult = determineClassPerformance(approved);
+
+        //Assert
+        expect(functionResult).toBe(expectededResult);
+    });
+
+    test('Given the value 0.9 the expected result should be the message Excellent Class', () => {
+
+        //Arrange
+        let approved: number = 0.9;
+        let expectededResult: string = "Excellent Class";
+
+        //Act
+        let functionResult = determineClassPerformance(approved);
+
+        //Assert
+        expect(functionResult).toBe(expectededResult);
+    });
+
+    test('Given the value 1 the expected result should be the message Excellent Class', () => {
+
+        //Arrange
+        let approved: number = 1;
+        let expectededResult: string = "Excellent Class";
+
+        //Act
+        let functionResult = determineClassPerformance(approved);
+
+        //Assert
+        expect(functionResult).toBe(expectededResult);
+    });
+
+    test('Given the value 0 the expected result should be the message Bad Class', () => {
+
+        //Arrange
+        let approved: number = 0;
+        let expectededResult: string = "Bad Class";
+
+        //Act
+        let functionResult = determineClassPerformance(approved);
 
         //Assert
         expect(functionResult).toBe(expectededResult);

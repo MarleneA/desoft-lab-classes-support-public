@@ -16,8 +16,8 @@ export function calculateDistanceOfRunner(): number {
     let distancekmsZe = ((distanceManel * timeZe) / timeManel) / 1000;
 
     return (distancekmsZe);
-}
+};
 
-console.log("Zé runned " + calculateDistanceOfRunner() + "km");
+
 
 

@@ -14,4 +14,3 @@ export function calculateWorkersDistance(): number {
     return (workersDistance);
 }
 
-console.log("The distance between workers is " + calculateWorkersDistance());

@@ -37,7 +37,7 @@ describe('Testing whether greetings appear after providing a number in seconds',
         expect(functionResult).toBe(expectededResult);
     });
 
-        test('Zero seconds should raise an exception', () => {
+    test('Zero seconds should raise an exception', () => {
         expect(() => {
             daysGreeting(0);
         }).toThrow('Choose a valid seconds range');

@@ -14,11 +14,11 @@ describe('Testing if a price return a percentage salesprice', () => {
         expect(functionResult).toBe(expectededResult);
     });
 
-   test('Given the price of a product 189 should return 113.4 of discount', () => {
+    test('Given the price of a product 189 should return 113.4 of discount', () => {
 
         //Arrange
         let price: number = 189;
-        let expectededResult: number = 113.39999999999999 ;
+        let expectededResult: number = 113.39999999999999;
 
         //Act
         let functionResult = calculatePriceSales(price);

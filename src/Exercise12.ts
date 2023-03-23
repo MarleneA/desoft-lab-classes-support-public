@@ -11,5 +11,3 @@ export function calculateBuildingHeightWithShadows(buildingShadow: number, perso
     let buildingHeight = buildingShadow / personShadow * personheight;
     return (buildingHeight);
 }
-
-console.log("The Building height is " + calculateBuildingHeightWithShadows(40, 2, 4));

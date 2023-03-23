@@ -40,4 +40,28 @@ describe('Testing the division operator', () => {
         //Assert
         expect(functionResult).toBe(expectededResult);
     });
+
+    test('When number provided is 100 should return 1', () => {
+        //Arrange
+        let num: number = 100;
+        let expectededResult: number = 1;
+
+        //Act
+        let functionResult = divisionOperator(num);
+
+        //Assert
+        expect(functionResult).toBe(expectededResult);
+    });
+
+    test('When number provided is 999 should return 9', () => {
+        //Arrange
+        let num: number = 999;
+        let expectededResult: number = 9;
+
+        //Act
+        let functionResult = divisionOperator(num);
+
+        //Assert
+        expect(functionResult).toBe(expectededResult);
+    });
 });

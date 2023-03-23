@@ -10,16 +10,16 @@ FIM*/
 
 
 
- //Posso declarar toda a formula na mesma variavel ou atribuir outra como: let distanceMeters= distanceKm*1000;
+//Posso declarar toda a formula na mesma variavel ou atribuir outra como: let distanceMeters= distanceKm*1000;
 
- 
-export function calculateDistanceOfThunderstorm(intertime: number): number{
-    let vsound=1224;
-    let onehourinseconds=3600;
-    let distance =((vsound * intertime)/onehourinseconds)*1000;
+
+export function calculateDistanceOfThunderstorm(intertime: number): number {
+    let vsound = 1224;
+    let onehourinseconds = 3600;
+    let distance = ((vsound * intertime) / onehourinseconds) * 1000;
     return distance;
-}
+};
 
 
-console.log("The distance of a Thunderstorm is " + calculateDistanceOfThunderstorm(12) + " meters");
+
 

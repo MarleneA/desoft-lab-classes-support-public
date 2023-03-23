@@ -14,5 +14,5 @@ describe('Testing the boolean grade', () => {
         //Assert
         expect(gradeResult).toBe(expectededResult);
     });
-});     
+});
 

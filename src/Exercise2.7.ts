@@ -18,5 +18,5 @@ export function calculateCubeVolume(area: number): string {
     else {
         return "Large";
     }
-}
+};
 

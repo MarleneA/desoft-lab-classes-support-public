@@ -5,5 +5,5 @@ export function isAscendingOrder(num: number): boolean {
         return (true);
     }
     return (false);
-}
+};
 

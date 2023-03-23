@@ -7,10 +7,9 @@ Escrever (“O resultado de x é”, resultado_x)
 
 FIM*/
 
-export function calculateExpression(x: number): number{
-    
-    let result = (x * x) - (3 * x) + 1;
-    return(result);
-}
+export function calculateExpression(x: number): number {
 
-console.log("The result of the expression is " + calculateExpression(300));
+    let result = (x * x) - (3 * x) + 1;
+    return (result);
+};
+

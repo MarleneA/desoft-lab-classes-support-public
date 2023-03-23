@@ -5,7 +5,7 @@ describe('Testing the calculation of X', () => {
     test('Given a  negative number 5 should return -5. ', () => {
         //Arrange
         let number = -5;
-        let expectededResult: number= -5;
+        let expectededResult: number = -5;
 
         //Act
         let functionResult = determineX(number);

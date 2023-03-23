@@ -1,4 +1,4 @@
-function convertSecondsInHours(tSeconds: number){
+function convertSecondsInHours(tSeconds: number) {
     const tMinutes = Math.floor(tSeconds / 60);
     const seconds = tSeconds % 60;
     const hours = Math.floor(tMinutes / 60);
@@ -6,5 +6,4 @@ function convertSecondsInHours(tSeconds: number){
 
 
     return { hours, minutes, seconds };
-}
-console.log(convertSecondsInHours(18660));
+};

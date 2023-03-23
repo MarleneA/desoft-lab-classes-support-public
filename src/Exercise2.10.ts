@@ -8,5 +8,4 @@ export function findNumberMultiples(x: number, y: number): string {
     else {
         return ("x is neither a multiple nor a divisor of y")
     }
-
-}
+};

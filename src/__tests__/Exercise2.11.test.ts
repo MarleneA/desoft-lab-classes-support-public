@@ -27,4 +27,4 @@ describe('Testing if a random number with 3 digits already is in sorted way or n
         //Assert
         expect(functionResult).toBe(expectededResult);
     });
-})
+});

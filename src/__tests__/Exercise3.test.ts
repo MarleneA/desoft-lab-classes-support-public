@@ -5,7 +5,7 @@ describe('Testing the calculation of the volume', () => {
 
         //Arrange
         let height: number = 10;
-        let expectededResult: number = 31.41592653589793 ;
+        let expectededResult: number = 31.41592653589793;
 
         //Act
         let functionResult = calculateCylinderVolume(height);
