@@ -11,15 +11,15 @@ FIMSE
 RETORNAR digito1*/
 
 export function divisionOperator(num: number): number {
-    let digite1: number, digite2: number, digite3: number;
+    let digit1: number, digit2: number, digit3: number;
 
 
     if (num < 100 || num > 999) {
-        digite1 = -1;
+        digit1 = -1;
     } else {
-        //digite3 = num % 10;
-        //digite2 = Math.floor(num / 10) % 10;
-        digite1 = Math.floor(num / 100) % 10;
+        //digit3 = num % 10;
+        //digit2 = Math.floor(num / 10) % 10;
+        digit1 = Math.floor(num / 100) % 10;
     }
-    return digite1;
+    return digit1;
 };

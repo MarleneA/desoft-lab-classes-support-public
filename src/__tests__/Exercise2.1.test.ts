@@ -7,9 +7,9 @@ describe('Testing the Calculate heavy average', () => {
         let note1: number = 10;
         let note2: number = 15;
         let note3: number = 9;
-        let weigth1: number = 0.20;
-        let weigth2: number = 0.40;
-        let weigth3: number = 0.40;
+        let weigth1: number = 20;
+        let weigth2: number = 40;
+        let weigth3: number = 40;
         let expectededHeavyAverage: number = 11.6;
 
         //Act

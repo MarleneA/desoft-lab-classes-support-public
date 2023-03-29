@@ -25,7 +25,7 @@ describe('Testing if a volume is Small, Average or Large.', () => {
         expect(functionResult).toBe(expectededResult);
     });
 
-    test('Given a number like 5 should return "Small" ', () => {
+    test('Given number 5 should return "Small" ', () => {
         //Arrange
         let number = 5;
         let expectededResult: string = "Small";

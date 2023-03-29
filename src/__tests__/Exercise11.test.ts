@@ -14,3 +14,15 @@ describe('Testing the calculation of the height of a building throwing a stone',
         expect(functionResult).toBe(expectededResult);
     });
 });
+
+test('Throwing a stone that takes 2 seconds to fall to the ground should expect that the height of the building is 19.6 meters', () => {
+//Arrange
+let timeSeconds: number = 0;
+let expectededResult: number = 0;
+
+//Act
+let functionResult = calculateBuildingHeight(timeSeconds);
+
+//Assert
+expect(functionResult).toBe(expectededResult);
+});

@@ -12,6 +12,7 @@ describe('Testing the calculation of X', () => {
 
         //Assert
         expect(functionResult).toBe(expectededResult);
+
     });
 
     test('Number 0 should return 0. ', () => {
